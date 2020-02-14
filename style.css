@@ -1,0 +1,46 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+header{
+    background: url('https://tse4.mm.bing.net/th?id=OIP.7QfNsxJluLXXdLMc72G2hgHaEd&pid=Api&P=0&w=320&h=194');
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+
+@media screen and (max-width:670px){
+    header{
+        min-height: 500px;
+    }
+
+    .iconBottom{
+        display: none;
+    }
+}
+
+.panelCard{
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.formCard{
+    height: 500px;
+    padding: 50px;
+}
+
+.paddingTop{
+    padding-top: 100px;
+}
+
+.iconBottom{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
